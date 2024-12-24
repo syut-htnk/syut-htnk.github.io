@@ -1,85 +1,18 @@
-# Markdown Extension Examples
+---
+title: Pixel Sorting
+image:
+  src: ./../public/thumbnails/thumbnail.jpg
+  width: 800
+  height: 400
+---
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+<!-- <thumbnail /> -->
+<!-- <canvas id="p5js-canvas" width="100%" height="600"></canvas> -->
 
-## Syntax Highlighting
+# Pixel Sorting
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+Pixel Sortingは、画像処理の手法の一つで、特定の基準に従ってピクセルを並び替える技術です。
 
-**Input**
+画像のピクセルに対して、行（もしくは列）の中で、何らかの基準（Value of Brightness など）に基づいてピクセルを並び替えることで、視覚効果を得ようとする試み。私は音楽のミュージックビデオで初めて認識した。
 
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
 
-**Output**
-
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-
-## Custom Containers
-
-**Input**
-
-```md
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
