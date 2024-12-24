@@ -3,3 +3,5 @@ docs/.vitepress/dist/
 
 # VitePress cache
 docs/.vitepress/cache/
+
+# VitePress temp files
